@@ -1,0 +1,19 @@
+@import "colour.css";
+@import "fonts.php";
+@import "positioning.php";
+
+#sidebar
+{
+	border: 2px solid;
+	border-color: black;		/* an odd little hack, for Mozilla */
+}
+
+#sidebar>a
+{
+	/*font-size: smaller;*/
+}
+
+img
+{
+	border: 0;
+}

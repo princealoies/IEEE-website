@@ -1,0 +1,17 @@
+h1, h2		{ color: #10198c; }
+
+a		{ color: #10198c; }
+a:hover		{ color: #0033cc; }
+a.sidebar 	{ color: white; }
+a.sidebar:hover	{ color: #ffee66; }
+
+tr.evenRow	{ background-color: #ccccff; }
+
+#sidebar
+{
+	border-color: black;
+	background-color: #10198c;
+	color: white;
+}
+
+h2.minutes	{ color: black; }
