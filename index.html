@@ -1,0 +1,176 @@
+﻿<!DOCTYPE HTML>
+<html>
+
+<!-- #BeginTemplate "template_slider.dwt" -->
+
+<head>
+	
+	<link href="css/styles.css" rel="stylesheet" type="text/css" media="screen">
+	<link href="js/nivo-slider/themes/default/default.css" rel="stylesheet" type="text/css" media="screen">
+	<link href="js/nivo-slider/nivo-slider.css" rel="stylesheet" type="text/css" media="screen">
+	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+	<script src="js/nivo-slider/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+	<script type="text/javascript">
+		$(window).load(function() {
+		    $('#slider').nivoSlider({
+		        effect: 'random', // Specify sets like: 'fold,fade,sliceDown'
+		        slices: 15, // For slice animations
+		        boxCols: 8, // For box animations
+		        boxRows: 4, // For box animations
+		        animSpeed: 500, // Slide transition speed
+		        pauseTime: 4000, // How long each slide will show
+		        startSlide: 0, // Set starting Slide (0 index)
+		        directionNav: true, // Next & Prev navigation
+		        controlNav: true, // 1,2,3... navigation
+		        controlNavThumbs: false, // Use thumbnails for Control Nav
+		        pauseOnHover: true, // Stop animation while hovering
+		        manualAdvance: false, // Force manual transitions
+		        prevText: 'Prev', // Prev directionNav text
+		        nextText: 'Next', // Next directionNav text
+		        randomStart: false, // Start on a random slide
+		        beforeChange: function(){}, // Triggers before a slide transition
+		        afterChange: function(){}, // Triggers after a slide transition
+		        slideshowEnd: function(){}, // Triggers after all slides have been shown
+		        lastSlide: function(){}, // Triggers when last slide is shown
+		        afterLoad: function(){} // Triggers when slider has loaded
+		    });
+		});
+	</script>
+		
+	<!-- #BeginEditable "doctitle" -->
+		
+	<title>Memorial University IEEE Student Branch</title>
+
+<!-- #EndEditable -->
+
+</head>
+	
+<body>
+
+<div id="wrapper">
+	<div id="top">
+		<div id="mun-logo">
+			<a href="http://www.mun.ca"><img src="images/memorial-university-logo.png" /></a>
+		</div>
+		<div id="ieee-logo">
+			<a href="http://sites.ieee.org/r7-sac"><img src="images/IEEE-logo.gif" /></a>
+		</div>
+	</div>
+	
+	<div id="topnav">
+		<ul>
+			<li><a href="index.html">HOME</a></li>
+			<li><a href="about.html">ABOUT</a></li>
+			<li><a href="events.html">EVENTS</a></li>
+			<li><a href="executive.html">EXECUTIVE</a></li>
+			<li><a href="links.html">LINKS</a></li>
+		</ul>
+	</div>
+
+	<div class="slider-wrapper theme-default">
+	    <div id="slider" class="nivoSlider">
+	    <!-- #BeginEditable "slider" -->
+	        <a href="http://www.ieee.org/membership_services/membership/students/competitions/xtreme/index.html"><img src="images/IEEE Xtreme.png" alt="" title="#ieeecaption"/></a>
+	        <a href="http://greatcanadianappathon.com"><img src="images/GCA3 logo 300x200.png" alt="" title="#gcacaption" /></a>
+	       <!-- <img src="images/slide3.jpg" alt="" title="This is an example of a caption" /> -->
+	     <!-- #EndEditable -->
+	    </div>
+	</div>
+	
+	 <!-- #BeginEditable "captions" -->
+
+	<div id="gcacaption" class="nivo-html-caption">
+	    The Great Canadian Appathon will be coming to MUN September 28-30. For more info view our <a href="events.html">events</a> page!
+	</div>
+	<div id="ieeecaption" class="nivo-html-caption">
+	    The IEEEXtreme programming competition is coming to MUN on October 20. For more info view our <a href="events.html">events</a> page!
+	</div>
+
+	
+	<!-- #EndEditable -->
+		
+	<div id="subbanner">
+	
+		<h3>Memorial University IEEE Student Branch</h3>
+	
+	</div>
+	
+	<div id="leftnav">
+	</div>
+	
+	<div id="content">
+	
+		<!-- #BeginEditable "content" -->
+		<h1>News</h1>
+		
+		<h2>The Great Canadian Appathon</h2>
+			<p>The Great Canadian Appathon is coming to MUN Septemeber 28th!</p>
+			<p>This is your opportunity to compete with students across Canada 
+			to create the next incredible mobile game! There are over $30,000 
+			in cash prizes to be won! Register your team by signing up at 
+			<a href="greatcanadianappathon.com">www.greatcanadianappathon.com</a>
+			and contacting Brian or Scott whose e-mails can be found on the 
+			executive page.</p>
+			
+		<h2>IEEEXtreme Programming Competition</h2>
+			<p>Think you can code? Prove it to the world on 20 October 2012.</p>
+			<p>Registration is now open for <a href="https://xtreme.vtools.ieee.org">IEEEXtreme</a>
+			, the global 24-hour online	programming competition. Grab your friends 
+			and start forming your teams of three today. All active participants 
+			will receive a 2012 IEEEXtreme t-shirt.</p>
+			<p>Registration will close on 6 October 2012 at 00:00:00 UTC.</p>
+			
+	<!-- #EndEditable -->
+	
+	</div>
+	
+	<div id="rightside">
+	
+	<h2>Join Us!</h2>
+			<p>IEEE opens the door to opportunities that will help you 
+			develop your professional identity in IEEE's designated 
+			fields of interest: sciences, technology, engineering, and 
+			mathematics (STEM). In addition to accessing a range of 
+			membership benefits, you'll make global connections with 
+			people who can help you along your targeted career path through 
+			IEEE's international community of members and volunteers.</p>
+			
+		<div class="button-container">
+			<div id="joinit">
+				<!--<p class="button-24-l" id="joinit-l">
+					<a target="" onmouseup="buttonOn('24','joinit')" onmousedown="buttonActive('24','joinit')" 
+						onmouseout="buttonOff('24','joinit')" onmouseover="buttonOn('24','joinit')" 
+						onclick="trackEvent('jism_join_button')" 
+						href="http://www.ieee.org/membership_services/membership/join/index.html">
+						<img id="button-24-joinit" alt="button-24-l-off" 
+						src="/ucm/groups/webassets/@ieee/@web/@org/documents/images/button-24-l-off.gif">
+					</a>
+				</p>-->
+				<p class="button-24-r" id="joinit-r" style="background-image: url(http://www.ieee.org/ucm/groups/webassets/@ieee/@web/@org/documents/images/button-24-r-off.gif); 
+					background-position: 100% 0%; background-repeat: no-repeat no-repeat; ">
+						<a target="" onmouseup="buttonOn('24','joinit')" onmousedown="buttonActive('24','joinit')" 
+							onmouseout="buttonOff('24','joinit')" onmouseover="buttonOn('24','joinit')" 
+							onclick="trackEvent('jism_join_button')" 
+							href="http://www.ieee.org/membership_services/membership/join/index.html">Join
+						</a>
+				</p>
+				<div class="clearit">&nbsp;</div>
+			</div>
+			<br>&nbsp;
+		</div>
+	
+	</div>
+
+	<div id="footer">
+		<p>&copy; MUN IEEE Student Branch</p>
+	</div>	
+	
+</div>
+		
+</body>
+
+<!-- #EndTemplate -->
+
+</html>
