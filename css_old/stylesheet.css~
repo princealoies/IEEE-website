@@ -1,0 +1,39 @@
+A:link {COLOR: #bddfff;TEXT-DECORATION: none}
+A:visited {COLOR: #bddfff;TEXT-DECORATION: none}
+A:active {COLOR: #bddfff;TEXT-DECORATION: none}
+A:hover {COLOR: #a0c8f8;TEXT-DECORATION: underline}
+
+body {
+	font-size:12px;
+	font-family:Verdana, Arial;
+	background-color:#8391a1;
+	color:#000000;
+}
+
+table, tr, td, p {
+	font-size:12px;
+	font-family:Verdana, Arial;
+	color:#000000
+}
+
+.menu {
+	font-size:12px;
+	font-family:Verdana, Arial;
+	color:#ffffff
+	text-align:center;
+	font-weight:bold;
+	width:791px;
+	height:24px;
+	background-image:url('../gfx/menu_bg.png')
+}
+
+.content {
+	font-size:12px;
+	font-family:Verdana, Arial;
+	color:#000000;
+	background-color:#c8d6e6;
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 3px;
+}
+
