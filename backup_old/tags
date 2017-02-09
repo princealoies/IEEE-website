@@ -1,0 +1,440 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/darren@hiebert.com/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.0.1	//
+Abstract_Database	modules/Gallery/classes/Database.php	/^class Abstract_Database {$/;"	c
+Abstract_User	modules/Gallery/classes/User.php	/^	function Abstract_User() {$/;"	f
+Abstract_User	modules/Gallery/classes/User.php	/^class Abstract_User {$/;"	c
+Abstract_UserDB	modules/Gallery/classes/UserDB.php	/^class Abstract_UserDB {$/;"	c
+Activity	php-bin/Activity.php	/^	function Activity($sqlResult)$/;"	f
+Activity	php-bin/Activity.php	/^class Activity$/;"	c
+Album	modules/Gallery/classes/Album.php	/^	function Album() {$/;"	f
+Album	modules/Gallery/classes/Album.php	/^class Album {$/;"	c
+AlbumDB	modules/Gallery/classes/AlbumDB.php	/^	function AlbumDB() {$/;"	f
+AlbumDB	modules/Gallery/classes/AlbumDB.php	/^class AlbumDB {$/;"	c
+AlbumItem	modules/Gallery/classes/AlbumItem.php	/^class AlbumItem {$/;"	c
+Comment	modules/Gallery/classes/Comment.php	/^	function Comment($commentText, $IPNumber, $name, $UID="") {$/;"	f
+Comment	modules/Gallery/classes/Comment.php	/^class Comment {$/;"	c
+EverybodyUser	modules/Gallery/classes/EverybodyUser.php	/^	function EverybodyUser() {$/;"	f
+EverybodyUser	modules/Gallery/classes/EverybodyUser.php	/^class EverybodyUser extends Abstract_User {$/;"	c
+GallerySession	modules/Gallery/session.php	/^class GallerySession {}$/;"	c
+Gallery_User	modules/Gallery/classes/gallery/User.php	/^class Gallery_User extends Abstract_User {$/;"	c
+Gallery_UserDB	modules/Gallery/classes/gallery/UserDB.php	/^	function Gallery_UserDB() {$/;"	f
+Gallery_UserDB	modules/Gallery/classes/gallery/UserDB.php	/^class Gallery_UserDB extends Abstract_UserDB {$/;"	c
+Image	modules/Gallery/classes/Image.php	/^	function Image() {$/;"	f
+Image	modules/Gallery/classes/Image.php	/^class Image {$/;"	c
+LoggedinUser	modules/Gallery/classes/LoggedInUser.php	/^	function LoggedinUser() {$/;"	f
+LoggedinUser	modules/Gallery/classes/LoggedInUser.php	/^class LoggedinUser extends Abstract_User {$/;"	c
+MySQL_Database	modules/Gallery/classes/database/mysql/Database.php	/^	function MySQL_Database($host, $uname, $pass, $dbname) {$/;"	f
+MySQL_Database	modules/Gallery/classes/database/mysql/Database.php	/^class MySQL_Database extends Abstract_Database {$/;"	c
+NobodyUser	modules/Gallery/classes/NobodyUser.php	/^	function NobodyUser() {$/;"	f
+NobodyUser	modules/Gallery/classes/NobodyUser.php	/^class NobodyUser extends Abstract_User {$/;"	c
+Nuke5_AdminUser	modules/Gallery/classes/nuke5/AdminUser.php	/^	function Nuke5_AdminUser($admin) {$/;"	f
+Nuke5_AdminUser	modules/Gallery/classes/nuke5/AdminUser.php	/^class Nuke5_AdminUser extends Abstract_User {$/;"	c
+Nuke5_User	modules/Gallery/classes/nuke5/User.php	/^	function Nuke5_User() {$/;"	f
+Nuke5_User	modules/Gallery/classes/nuke5/User.php	/^class Nuke5_User extends Abstract_User {$/;"	c
+Nuke5_UserDB	modules/Gallery/classes/nuke5/UserDB.php	/^	function Nuke5_UserDB() {$/;"	f
+Nuke5_UserDB	modules/Gallery/classes/nuke5/UserDB.php	/^class Nuke5_UserDB extends Abstract_UserDB {$/;"	c
+PostNuke_User	modules/Gallery/classes/postnuke/User.php	/^	function PostNuke_User() {$/;"	f
+PostNuke_User	modules/Gallery/classes/postnuke/User.php	/^class PostNuke_User extends Abstract_User {$/;"	c
+PostNuke_User	modules/Gallery/classes/postnuke0.7.1/User.php	/^class PostNuke_User extends Abstract_User {$/;"	c
+PostNuke_UserDB	modules/Gallery/classes/postnuke/UserDB.php	/^	function PostNuke_UserDB() {$/;"	f
+PostNuke_UserDB	modules/Gallery/classes/postnuke/UserDB.php	/^class PostNuke_UserDB extends Abstract_UserDB {$/;"	c
+PostNuke_UserDB	modules/Gallery/classes/postnuke0.7.1/UserDB.php	/^	function PostNuke_UserDB() {$/;"	f
+PostNuke_UserDB	modules/Gallery/classes/postnuke0.7.1/UserDB.php	/^class PostNuke_UserDB extends Abstract_UserDB {$/;"	c
+_getStyleSheetLink	modules/Gallery/util.php	/^function _getStyleSheetLink($filename) {$/;"	f
+acceptableFormat	modules/Gallery/util.php	/^function acceptableFormat($tag) {$/;"	f
+acceptableFormatList	modules/Gallery/util.php	/^function acceptableFormatList() {$/;"	f
+acceptableFormatRegexp	modules/Gallery/util.php	/^function acceptableFormatRegexp() {$/;"	f
+addComment	modules/Gallery/classes/Album.php	/^	function addComment($index, $comment, $IPNumber, $name) {$/;"	f
+addComment	modules/Gallery/classes/AlbumItem.php	/^	function addComment($comment, $IPNumber, $name) {$/;"	f
+addNestedAlbum	modules/Gallery/classes/Album.php	/^	function addNestedAlbum($albumName) {$/;"	f
+addPhoto	modules/Gallery/classes/Album.php	/^	function addPhoto($file, $tag, $originalFilename, $caption, $pathToThumb="") {$/;"	f
+addUrlArg	modules/Gallery/util.php	/^function addUrlArg($url, $arg) {$/;"	f
+appendNestedAlbums	modules/Gallery/gallery_remote.php	/^function appendNestedAlbums($level, $albumName, $albumString) {$/;"	f
+breakString	modules/Gallery/util.php	/^function breakString($buf, $desired_len=40, $space_char=' ', $overflow=5) {$/;"	f
+broken_link	modules/Gallery/util.php	/^function broken_link($file) {$/;"	f
+canAddTo	modules/Gallery/classes/Album.php	/^	function canAddTo($uid) {$/;"	f
+canAddToAlbum	modules/Gallery/classes/User.php	/^	function canAddToAlbum($album) {$/;"	f
+canChangeText	modules/Gallery/classes/Album.php	/^	function canChangeText($uid) {$/;"	f
+canChangeTextOfAlbum	modules/Gallery/classes/User.php	/^	function canChangeTextOfAlbum($album) {$/;"	f
+canCreateAlbums	modules/Gallery/classes/User.php	/^	function canCreateAlbums() {$/;"	f
+canCreateSubAlbum	modules/Gallery/classes/Album.php	/^	function canCreateSubAlbum($uid) {$/;"	f
+canCreateSubAlbum	modules/Gallery/classes/User.php	/^	function canCreateSubAlbum($album) {$/;"	f
+canCreateUser	modules/Gallery/classes/UserDB.php	/^	function canCreateUser() {$/;"	f
+canCreateUser	modules/Gallery/classes/gallery/UserDB.php	/^	function canCreateUser() {$/;"	f
+canDelete	modules/Gallery/classes/Album.php	/^	function canDelete($uid) {$/;"	f
+canDeleteAlbum	modules/Gallery/classes/User.php	/^	function canDeleteAlbum($album) {$/;"	f
+canDeleteFrom	modules/Gallery/classes/Album.php	/^	function canDeleteFrom($uid) {$/;"	f
+canDeleteFromAlbum	modules/Gallery/classes/User.php	/^	function canDeleteFromAlbum($album) {$/;"	f
+canDeleteUser	modules/Gallery/classes/UserDB.php	/^	function canDeleteUser() {$/;"	f
+canDeleteUser	modules/Gallery/classes/gallery/UserDB.php	/^	function canDeleteUser() {$/;"	f
+canModifyUser	modules/Gallery/classes/UserDB.php	/^	function canModifyUser() {$/;"	f
+canModifyUser	modules/Gallery/classes/gallery/UserDB.php	/^	function canModifyUser() {$/;"	f
+canRead	modules/Gallery/classes/Album.php	/^	function canRead($uid) {$/;"	f
+canReadAlbum	modules/Gallery/classes/User.php	/^	function canReadAlbum($album) {$/;"	f
+canWrite	modules/Gallery/classes/Album.php	/^	function canWrite($uid) {$/;"	f
+canWriteToAlbum	modules/Gallery/classes/User.php	/^	function canWriteToAlbum($album) {$/;"	f
+center	modules/Gallery/util.php	/^function center($message) {$/;"	f
+changeDirection	modules/Gallery/slideshow.php	/^function changeDirection() {$/;"	f
+changeElementText	modules/Gallery/slideshow.php	/^function changeElementText(id, newText) {$/;"	f
+change_transition	modules/Gallery/slideshow.php	/^function change_transition() {$/;"	f
+close_button	modules/Gallery/upgrade_album.php	/^function close_button() {$/;"	f
+configure	modules/Gallery/errors/configure_instructions.php	/^function configure($cmd="configure") {$/;"	f
+configure_dirmode	modules/Gallery/errors/configure_instructions.php	/^function configure_dirmode($cmd = "configure") {$/;"	f
+configure_filemode	modules/Gallery/errors/configure_instructions.php	/^function configure_filemode($cmd = "configure") {$/;"	f
+correctPseudoUsers	modules/Gallery/util.php	/^function correctPseudoUsers(&$array, $ownerUid) {$/;"	f
+cut_image	modules/Gallery/util.php	/^function cut_image($src, $dest, $x, $y, $width, $height) {$/;"	f
+dateString	php-bin/Activity.php	/^	function dateString()$/;"	f
+dateTimeString	php-bin/Activity.php	/^	function dateTimeString()$/;"	f
+debug	modules/Gallery/platform/fs_win32.php	/^function debug($msg) {$/;"	f
+delete	modules/Gallery/classes/Album.php	/^	function delete() {$/;"	f
+delete	modules/Gallery/classes/AlbumItem.php	/^	function delete($dir) {$/;"	f
+delete	modules/Gallery/classes/Image.php	/^	function delete($dir) {$/;"	f
+deleteComment	modules/Gallery/classes/Album.php	/^	function deleteComment($index, $comment_index) {$/;"	f
+deleteComment	modules/Gallery/classes/AlbumItem.php	/^	function deleteComment($comment_index) {$/;"	f
+deletePhoto	modules/Gallery/classes/Album.php	/^	function deletePhoto($index, $forceResetHighlight="0", $recursive=1) {$/;"	f
+deleteUserByUsername	modules/Gallery/classes/gallery/UserDB.php	/^	function deleteUserByUsername($username) {$/;"	f
+details	php-bin/Activity.php	/^	function details()$/;"	f
+dismiss	modules/Gallery/util.php	/^function dismiss() {$/;"	f
+dismissAndLoad	modules/Gallery/util.php	/^function dismissAndLoad($url) {$/;"	f
+dismissAndReload	modules/Gallery/util.php	/^function dismissAndReload() {$/;"	f
+doCommand	modules/Gallery/util.php	/^function doCommand($command, $args=array(), $returnTarget="", $returnArgs=array()) {$/;"	f
+doResize	modules/Gallery/view_photo.php	/^  function doResize() {$/;"	f
+drawSelect	modules/Gallery/util.php	/^function drawSelect($name, $array, $selected, $size, $attrList=array()) {$/;"	f
+editCaption	modules/Gallery/util.php	/^function editCaption($album, $index, $edit) {$/;"	f
+editField	modules/Gallery/util.php	/^function editField($album, $field, $edit) {$/;"	f
+emptyFormVar	modules/Gallery/util.php	/^function emptyFormVar($name) {$/;"	f
+end_file	modules/Gallery/upgrade_album.php	/^function end_file() {$/;"	f
+error	modules/Gallery/util.php	/^function error($message) {$/;"	f
+errorRow	modules/Gallery/util.php	/^function errorRow($key) {$/;"	f
+error_format	modules/Gallery/util.php	/^function error_format($message) {$/;"	f
+execLogin	php-bin/security.php	/^function execLogin() { return false; }$/;"	f
+exec_internal	modules/Gallery/util.php	/^function exec_internal($cmd) {$/;"	f
+exec_wrapper	modules/Gallery/util.php	/^function exec_wrapper($cmd) {$/;"	f
+fetch_row	modules/Gallery/classes/Database.php	/^	function fetch_row($results) {$/;"	f
+fetch_row	modules/Gallery/classes/database/mysql/Database.php	/^	function fetch_row($results) {$/;"	f
+find_albums	modules/Gallery/upgrade_album.php	/^function find_albums(&$results, $album="") {$/;"	f
+fitToWindow	modules/Gallery/view_photo.php	/^  function fitToWindow(do_resize) {$/;"	f
+formVar	modules/Gallery/util.php	/^function formVar($name) {$/;"	f
+fromPnmCmd	modules/Gallery/util.php	/^function fromPnmCmd($file) {$/;"	f
+fs_copy	modules/Gallery/platform/fs_unix.php	/^function fs_copy($source, $dest) {$/;"	f
+fs_copy	modules/Gallery/platform/fs_win32.php	/^function fs_copy($source, $dest) {$/;"	f
+fs_exec	modules/Gallery/platform/fs_unix.php	/^function fs_exec($cmd, &$results, &$status, $debugfile="") {$/;"	f
+fs_exec	modules/Gallery/platform/fs_win32.php	/^function fs_exec($cmd, &$results, &$status, $debugfile) {$/;"	f
+fs_executable	modules/Gallery/platform/fs_unix.php	/^function fs_executable($filename) {$/;"	f
+fs_executable	modules/Gallery/platform/fs_win32.php	/^function fs_executable($filename) {$/;"	f
+fs_export_filename	modules/Gallery/platform/fs_unix.php	/^function fs_export_filename($filename) {$/;"	f
+fs_export_filename	modules/Gallery/platform/fs_win32.php	/^function fs_export_filename($filename) {$/;"	f
+fs_file_exists	modules/Gallery/platform/fs_unix.php	/^function fs_file_exists($filename) {$/;"	f
+fs_file_exists	modules/Gallery/platform/fs_win32.php	/^function fs_file_exists($filename) {$/;"	f
+fs_filesize	modules/Gallery/platform/fs_unix.php	/^function fs_filesize($filename) {$/;"	f
+fs_filesize	modules/Gallery/platform/fs_win32.php	/^function fs_filesize($filename) {$/;"	f
+fs_fopen	modules/Gallery/platform/fs_unix.php	/^function fs_fopen($filename, $mode, $use_include_path=0) {$/;"	f
+fs_fopen	modules/Gallery/platform/fs_win32.php	/^function fs_fopen($filename, $mode, $use_include_path=0) {$/;"	f
+fs_import_filename	modules/Gallery/platform/fs_unix.php	/^function fs_import_filename($filename) {$/;"	f
+fs_import_filename	modules/Gallery/platform/fs_win32.php	/^function fs_import_filename($filename, $for_exec=1) {$/;"	f
+fs_is_dir	modules/Gallery/platform/fs_unix.php	/^function fs_is_dir($filename) {$/;"	f
+fs_is_dir	modules/Gallery/platform/fs_win32.php	/^function fs_is_dir($filename) {$/;"	f
+fs_is_executable	modules/Gallery/platform/fs_unix.php	/^function fs_is_executable($filename) {$/;"	f
+fs_is_executable	modules/Gallery/platform/fs_win32.php	/^function fs_is_executable($filename) {$/;"	f
+fs_is_file	modules/Gallery/platform/fs_unix.php	/^function fs_is_file($filename) {$/;"	f
+fs_is_file	modules/Gallery/platform/fs_win32.php	/^function fs_is_file($filename) {$/;"	f
+fs_is_link	modules/Gallery/platform/fs_unix.php	/^function fs_is_link($filename) {$/;"	f
+fs_is_link	modules/Gallery/platform/fs_win32.php	/^function fs_is_link($filename) {$/;"	f
+fs_mkdir	modules/Gallery/platform/fs_unix.php	/^function fs_mkdir($filename, $perms) {$/;"	f
+fs_mkdir	modules/Gallery/platform/fs_win32.php	/^function fs_mkdir($filename, $perms) {$/;"	f
+fs_opendir	modules/Gallery/platform/fs_unix.php	/^function fs_opendir($path) {$/;"	f
+fs_opendir	modules/Gallery/platform/fs_win32.php	/^function fs_opendir($path) {$/;"	f
+fs_rename	modules/Gallery/platform/fs_unix.php	/^function fs_rename($oldname, $newname) {$/;"	f
+fs_rename	modules/Gallery/platform/fs_win32.php	/^function fs_rename($oldname, $newname) {$/;"	f
+fs_stat	modules/Gallery/platform/fs_unix.php	/^function fs_stat($filename) {$/;"	f
+fs_stat	modules/Gallery/platform/fs_win32.php	/^function fs_stat($filename) {$/;"	f
+fs_tempdir	modules/Gallery/platform/fs_unix.php	/^function fs_tempdir() {$/;"	f
+fs_tempdir	modules/Gallery/platform/fs_win32.php	/^function fs_tempdir() {$/;"	f
+fs_unlink	modules/Gallery/platform/fs_unix.php	/^function fs_unlink($filename) {$/;"	f
+fs_unlink	modules/Gallery/platform/fs_win32.php	/^function fs_unlink($filename) {$/;"	f
+gallerySanityCheck	modules/Gallery/util.php	/^function gallerySanityCheck() {$/;"	f
+getActivities	php-bin/mysql.php	/^function getActivities()$/;"	f
+getActivity	php-bin/mysql.php	/^function getActivity($id)$/;"	f
+getAlbum	modules/Gallery/classes/AlbumDB.php	/^	function getAlbum($user, $index) {$/;"	f
+getAlbumDir	modules/Gallery/classes/Album.php	/^	function getAlbumDir() {$/;"	f
+getAlbumDirURL	modules/Gallery/classes/Album.php	/^	function getAlbumDirURL($type) {$/;"	f
+getAlbumbyName	modules/Gallery/classes/AlbumDB.php	/^	function getAlbumbyName($name) {$/;"	f
+getCaption	modules/Gallery/classes/Album.php	/^	function getCaption($index) {$/;"	f
+getCaption	modules/Gallery/classes/AlbumItem.php	/^	function getCaption() {$/;"	f
+getClicks	modules/Gallery/classes/Album.php	/^	function getClicks() {$/;"	f
+getClicksDate	modules/Gallery/classes/Album.php	/^	function getClicksDate() {$/;"	f
+getComment	modules/Gallery/classes/Album.php	/^	function getComment($photoIndex, $commentIndex) {$/;"	f
+getComment	modules/Gallery/classes/AlbumItem.php	/^	function getComment($commentIndex) {$/;"	f
+getCommentText	modules/Gallery/classes/Comment.php	/^	function getCommentText() {$/;"	f
+getDatePosted	modules/Gallery/classes/Comment.php	/^	function getDatePosted() {$/;"	f
+getDimensions	modules/Gallery/classes/AlbumItem.php	/^	function getDimensions() {$/;"	f
+getDimensions	modules/Gallery/classes/Image.php	/^	function getDimensions($size=0) {$/;"	f
+getDimensions	modules/Gallery/util.php	/^function getDimensions($file) {$/;"	f
+getEmail	modules/Gallery/classes/User.php	/^	function getEmail() {$/;"	f
+getEverybody	modules/Gallery/classes/UserDB.php	/^	function getEverybody() {$/;"	f
+getExecutive	php-bin/mysql.php	/^function getExecutive($society)$/;"	f
+getExif	modules/Gallery/classes/Album.php	/^	function getExif($index, $forceRefresh=0) {$/;"	f
+getExif	modules/Gallery/classes/AlbumItem.php	/^	function getExif($dir, $forceRefresh=0) {$/;"	f
+getExif	modules/Gallery/util.php	/^function getExif($file) {$/;"	f
+getFile	modules/Gallery/util.php	/^function getFile($fname) {$/;"	f
+getFullName	modules/Gallery/classes/User.php	/^	function getFullName() {$/;"	f
+getHighlight	modules/Gallery/classes/Album.php	/^	function getHighlight() {$/;"	f
+getHighlightAsThumbnailTag	modules/Gallery/classes/Album.php	/^	function getHighlightAsThumbnailTag($size=0, $attrs="") {$/;"	f
+getHighlightTag	modules/Gallery/classes/Album.php	/^	function getHighlightTag($size=0, $attrs="") {$/;"	f
+getHighlightTag	modules/Gallery/classes/AlbumItem.php	/^	function getHighlightTag($dir, $size=0, $attrs) {$/;"	f
+getHighlightedItem	modules/Gallery/classes/Album.php	/^	function getHighlightedItem() {$/;"	f
+getIPNumber	modules/Gallery/classes/Comment.php	/^	function getIPNumber() {$/;"	f
+getId	modules/Gallery/classes/Image.php	/^	function getId($dir) {$/;"	f
+getIds	modules/Gallery/classes/Album.php	/^	function getIds($show_hidden=0) {$/;"	f
+getIsAlbumName	modules/Gallery/classes/AlbumItem.php	/^	function getIsAlbumName() {$/;"	f
+getItemCaptureDate	modules/Gallery/classes/Album.php	/^	function getItemCaptureDate($index) {$/;"	f
+getItemCaptureDate	modules/Gallery/classes/AlbumItem.php	/^	function getItemCaptureDate() {$/;"	f
+getItemCaptureDate	modules/Gallery/util.php	/^function getItemCaptureDate($file) {$/;"	f
+getItemClicks	modules/Gallery/classes/Album.php	/^	function getItemClicks($index) {$/;"	f
+getItemClicks	modules/Gallery/classes/AlbumItem.php	/^	function getItemClicks() {$/;"	f
+getKeyWords	modules/Gallery/classes/AlbumItem.php	/^	function getKeyWords() {$/;"	f
+getKeywords	modules/Gallery/classes/Album.php	/^	function getKeywords($index) {$/;"	f
+getLastModificationDate	modules/Gallery/classes/Album.php	/^	function getLastModificationDate() {$/;"	f
+getLoggedIn	modules/Gallery/classes/UserDB.php	/^	function getLoggedIn() {$/;"	f
+getName	modules/Gallery/classes/Comment.php	/^	function getName() {$/;"	f
+getName	modules/Gallery/classes/Image.php	/^	function getName($dir, $full=0) {$/;"	f
+getNestedAlbum	modules/Gallery/classes/Album.php	/^	function getNestedAlbum($index) {$/;"	f
+getNextPhoto	modules/Gallery/util.php	/^function getNextPhoto($idx) {$/;"	f
+getNobody	modules/Gallery/classes/UserDB.php	/^	function getNobody() {$/;"	f
+getOrCreateUser	modules/Gallery/classes/gallery/UserDB.php	/^	function getOrCreateUser($username) {$/;"	f
+getOwner	modules/Gallery/classes/Album.php	/^	function getOwner() {$/;"	f
+getPath	modules/Gallery/classes/Image.php	/^	function getPath($dir, $full=0) {$/;"	f
+getPerm	modules/Gallery/classes/Album.php	/^	function getPerm($permName, $uid) {$/;"	f
+getPermUids	modules/Gallery/classes/Album.php	/^	function getPermUids($permName) {$/;"	f
+getPhotoId	modules/Gallery/classes/Album.php	/^	function getPhotoId($index) {$/;"	f
+getPhotoId	modules/Gallery/classes/AlbumItem.php	/^	function getPhotoId($dir) {$/;"	f
+getPhotoIndex	modules/Gallery/classes/Album.php	/^	function getPhotoIndex($id) {$/;"	f
+getPhotoPath	modules/Gallery/classes/Album.php	/^	function getPhotoPath($index, $full=0) {$/;"	f
+getPhotoPath	modules/Gallery/classes/AlbumItem.php	/^	function getPhotoPath($dir, $full=0) {$/;"	f
+getPhotoTag	modules/Gallery/classes/Album.php	/^	function getPhotoTag($index, $full) {$/;"	f
+getPhotoTag	modules/Gallery/classes/AlbumItem.php	/^	function getPhotoTag($dir, $full=0) {$/;"	f
+getRawDimensions	modules/Gallery/classes/Image.php	/^	function getRawDimensions() {$/;"	f
+getRootAlbumName	modules/Gallery/classes/Album.php	/^	function getRootAlbumName() {$/;"	f
+getStyleSheetLink	modules/Gallery/util.php	/^function getStyleSheetLink() {$/;"	f
+getTag	modules/Gallery/classes/Image.php	/^	function getTag($dir, $full=0, $size=0, $attrs="") {$/;"	f
+getThumbDimensions	modules/Gallery/classes/Album.php	/^	function getThumbDimensions($index, $size=0) {$/;"	f
+getThumbDimensions	modules/Gallery/classes/AlbumItem.php	/^	function getThumbDimensions($size=0) {$/;"	f
+getThumbRectangle	modules/Gallery/classes/Image.php	/^	function getThumbRectangle() {$/;"	f
+getThumbnailTag	modules/Gallery/classes/Album.php	/^	function getThumbnailTag($index, $size=0, $attrs="") {$/;"	f
+getThumbnailTag	modules/Gallery/classes/AlbumItem.php	/^	function getThumbnailTag($dir, $size=0, $attrs="") {$/;"	f
+getUID	modules/Gallery/classes/Comment.php	/^	function getUID() {$/;"	f
+getUid	modules/Gallery/classes/User.php	/^	function getUid() {$/;"	f
+getUid	modules/Gallery/classes/gallery/UserDB.php	/^	function getUid($username) {$/;"	f
+getUidList	modules/Gallery/classes/UserDB.php	/^	function getUidList() {$/;"	f
+getUidList	modules/Gallery/classes/gallery/UserDB.php	/^	function getUidList() {$/;"	f
+getUidList	modules/Gallery/classes/nuke5/UserDB.php	/^	function getUidList() {$/;"	f
+getUidList	modules/Gallery/classes/postnuke/UserDB.php	/^	function getUidList() {$/;"	f
+getUidList	modules/Gallery/classes/postnuke0.7.1/UserDB.php	/^	function getUidList() {$/;"	f
+getUploadDate	modules/Gallery/classes/Album.php	/^	function getUploadDate($index) {$/;"	f
+getUploadDate	modules/Gallery/classes/AlbumItem.php	/^	function getUploadDate() {$/;"	f
+getUserByUid	modules/Gallery/classes/UserDB.php	/^	function getUserByUid($uid) {$/;"	f
+getUserByUid	modules/Gallery/classes/gallery/UserDB.php	/^	function getUserByUid($uid) {$/;"	f
+getUserByUid	modules/Gallery/classes/nuke5/UserDB.php	/^	function getUserByUid($uid) {$/;"	f
+getUserByUid	modules/Gallery/classes/postnuke/UserDB.php	/^	function getUserByUid($uid) {$/;"	f
+getUserByUid	modules/Gallery/classes/postnuke0.7.1/UserDB.php	/^	function getUserByUid($uid) {$/;"	f
+getUserByUsername	modules/Gallery/classes/UserDB.php	/^	function getUserByUsername($username, $level=0) {$/;"	f
+getUserByUsername	modules/Gallery/classes/gallery/UserDB.php	/^	function getUserByUsername($username, $level=0) {$/;"	f
+getUserByUsername	modules/Gallery/classes/nuke5/UserDB.php	/^	function getUserByUsername($username, $level=0) {$/;"	f
+getUserByUsername	modules/Gallery/classes/postnuke/UserDB.php	/^	function getUserByUsername($username, $level=0) {$/;"	f
+getUserByUsername	modules/Gallery/classes/postnuke0.7.1/UserDB.php	/^	function getUserByUsername($username, $level=0) {$/;"	f
+getUsername	modules/Gallery/classes/User.php	/^	function getUsername() {$/;"	f
+getUsername	modules/Gallery/classes/gallery/UserDB.php	/^	function getUsername($uid) {$/;"	f
+getVisibleAlbums	modules/Gallery/classes/AlbumDB.php	/^	function getVisibleAlbums($user) {$/;"	f
+go_to_next_page	modules/Gallery/slideshow_low.php	/^function go_to_next_page() {$/;"	f
+go_to_next_photo	modules/Gallery/slideshow.php	/^function go_to_next_photo() {$/;"	f
+go_to_next_photo	modules/Gallery/slideshow_low.php	/^function go_to_next_photo() {$/;"	f
+hasHighlight	modules/Gallery/classes/Album.php	/^	function hasHighlight() {$/;"	f
+hide	modules/Gallery/classes/AlbumItem.php	/^	function hide() {$/;"	f
+hidePhoto	modules/Gallery/classes/Album.php	/^	function hidePhoto($index) {$/;"	f
+hideProgress	modules/Gallery/view_album.php	/^  function hideProgress() {$/;"	f
+hideProgressAndReload	modules/Gallery/view_album.php	/^  function hideProgressAndReload() {$/;"	f
+image	modules/Gallery/progress_uploading.php	/^function image($name) {$/;"	f
+imageEditChoice	modules/Gallery/view_album.php	/^  function imageEditChoice(selected_select) {$/;"	f
+includeHtmlWrap	modules/Gallery/util.php	/^function includeHtmlWrap($name) {$/;"	f
+incrementClicks	modules/Gallery/classes/Album.php	/^	function incrementClicks() {$/;"	f
+incrementItemClicks	modules/Gallery/classes/Album.php	/^	function incrementItemClicks($index) {$/;"	f
+incrementItemClicks	modules/Gallery/classes/AlbumItem.php	/^	function incrementItemClicks() {$/;"	f
+integrityCheck	modules/Gallery/classes/Album.php	/^	function integrityCheck() {$/;"	f
+integrityCheck	modules/Gallery/classes/AlbumItem.php	/^	function integrityCheck($dir) {$/;"	f
+integrityCheck	modules/Gallery/classes/Image.php	/^	function integrityCheck($dir) {$/;"	f
+invertCheck	modules/Gallery/save_photos.php	/^function invertCheck() {$/;"	f
+isAdmin	modules/Gallery/classes/User.php	/^	function isAdmin() {$/;"	f
+isAlbumName	modules/Gallery/classes/Album.php	/^	function isAlbumName($index) {$/;"	f
+isCorrectPassword	modules/Gallery/classes/User.php	/^	function isCorrectPassword($password) {$/;"	f
+isDebugging	modules/Gallery/util.php	/^function isDebugging() {$/;"	f
+isHidden	modules/Gallery/classes/Album.php	/^	function isHidden($index) {$/;"	f
+isHidden	modules/Gallery/classes/AlbumItem.php	/^	function isHidden() {$/;"	f
+isHighlight	modules/Gallery/classes/AlbumItem.php	/^	function isHighlight() {$/;"	f
+isImage	modules/Gallery/util.php	/^function isImage($tag) {$/;"	f
+isLoaded	modules/Gallery/classes/Album.php	/^	function isLoaded() {$/;"	f
+isLoggedIn	modules/Gallery/classes/EverybodyUser.php	/^	function isLoggedIn() {$/;"	f
+isLoggedIn	modules/Gallery/classes/LoggedInUser.php	/^	function isLoggedIn() {$/;"	f
+isLoggedIn	modules/Gallery/classes/NobodyUser.php	/^	function isLoggedIn() {$/;"	f
+isLoggedIn	modules/Gallery/classes/User.php	/^	function isLoggedIn() {$/;"	f
+isMovie	modules/Gallery/classes/Album.php	/^	function isMovie($id) {$/;"	f
+isMovie	modules/Gallery/classes/AlbumItem.php	/^	function isMovie() {$/;"	f
+isMovie	modules/Gallery/util.php	/^function isMovie($tag) {$/;"	f
+isOwner	modules/Gallery/classes/Album.php	/^	function isOwner($uid) {$/;"	f
+isOwnerOfAlbum	modules/Gallery/classes/User.php	/^	function isOwnerOfAlbum($album) {$/;"	f
+isPseudo	modules/Gallery/classes/EverybodyUser.php	/^	function isPseudo() {$/;"	f
+isPseudo	modules/Gallery/classes/LoggedInUser.php	/^	function isPseudo() {$/;"	f
+isPseudo	modules/Gallery/classes/NobodyUser.php	/^	function isPseudo() {$/;"	f
+isPseudo	modules/Gallery/classes/User.php	/^	function isPseudo() {$/;"	f
+isResized	modules/Gallery/classes/Album.php	/^	function isResized($index) {$/;"	f
+isResized	modules/Gallery/classes/AlbumItem.php	/^	function isResized() {$/;"	f
+isResized	modules/Gallery/classes/Image.php	/^	function isResized() {$/;"	f
+isRoot	modules/Gallery/classes/Album.php	/^	function isRoot() {$/;"	f
+linkList	sidebar.php	/^function linkList($links, $pad = '')$/;"	f
+load	modules/Gallery/classes/Album.php	/^	function load($name) {$/;"	f
+load	modules/Gallery/classes/gallery/User.php	/^	function load($uid) {$/;"	f
+loadByUid	modules/Gallery/classes/nuke5/User.php	/^	function loadByUid($uid) {$/;"	f
+loadByUid	modules/Gallery/classes/postnuke/User.php	/^	function loadByUid($uid) {$/;"	f
+loadByUid	modules/Gallery/classes/postnuke0.7.1/User.php	/^	function loadByUid($uid) {$/;"	f
+loadByUserName	modules/Gallery/classes/nuke5/User.php	/^	function loadByUserName($uname) {$/;"	f
+loadByUserName	modules/Gallery/classes/postnuke/User.php	/^	function loadByUserName($uname) {$/;"	f
+loadByUserName	modules/Gallery/classes/postnuke0.7.1/User.php	/^	function loadByUserName($uname) {$/;"	f
+loadFromFile	modules/Gallery/classes/Album.php	/^	function loadFromFile($filename) {$/;"	f
+loginLink	php-bin/security.php	/^function loginLink()$/;"	f
+makeAlbumUrl	modules/Gallery/util.php	/^function makeAlbumUrl($albumName="", $photoId="", $args=array()) {$/;"	f
+makeFormIntro	modules/Gallery/util.php	/^function makeFormIntro($target, $attrList=array()) {$/;"	f
+makeGalleryUrl	modules/Gallery/util.php	/^function makeGalleryUrl($target, $args=array()) {$/;"	f
+makeSlideLowUrl	modules/Gallery/slideshow_low.php	/^function makeSlideLowUrl($index, $loop, $pause, $full, $dir) {$/;"	f
+makeThumbnail	modules/Gallery/classes/Album.php	/^	function makeThumbnail($index) {$/;"	f
+makeThumbnail	modules/Gallery/classes/AlbumItem.php	/^	function makeThumbnail($dir, $thumb_size, $pathToThumb="")$/;"	f
+moveAlbum	modules/Gallery/classes/AlbumDB.php	/^	function moveAlbum($user, $index, $newIndex) {$/;"	f
+moveAlbumAbsolute	modules/Gallery/classes/AlbumDB.php	/^	function moveAlbumAbsolute($index, $newIndex) {$/;"	f
+movePhoto	modules/Gallery/classes/Album.php	/^	function movePhoto($index, $newIndex) {$/;"	f
+msg	modules/Gallery/save_photos.php	/^function msg($buf) {$/;"	f
+msie	style/browserDetection.php	/^function msie()$/;"	f
+my_flush	modules/Gallery/util.php	/^function my_flush() {$/;"	f
+my_submit	modules/Gallery/manage_users.php	/^function my_submit(action) {$/;"	f
+netPbm	modules/Gallery/util.php	/^function netPbm($cmd, $args="") {$/;"	f
+newAlbumName	modules/Gallery/classes/AlbumDB.php	/^	function newAlbumName() {$/;"	f
+newPhotoName	modules/Gallery/classes/Album.php	/^	function newPhotoName() {$/;"	f
+numAlbums	modules/Gallery/classes/AlbumDB.php	/^	function numAlbums($user) {$/;"	f
+numComments	modules/Gallery/classes/Album.php	/^	function numComments($index) {$/;"	f
+numComments	modules/Gallery/classes/AlbumItem.php	/^	function numComments() {$/;"	f
+numHidden	modules/Gallery/classes/Album.php	/^	function numHidden() {$/;"	f
+numPhotos	modules/Gallery/classes/Album.php	/^	function numPhotos($show_hidden=0) {$/;"	f
+numPhotos	modules/Gallery/classes/AlbumDB.php	/^	function numPhotos($user) {$/;"	f
+padded_range_array	modules/Gallery/util.php	/^function padded_range_array($start, $end) {$/;"	f
+pages	pages.php	/^function pages()$/;"	f
+play	modules/Gallery/slideshow.php	/^function play() {$/;"	f
+play	modules/Gallery/slideshow_low.php	/^function play() {$/;"	f
+pluralize	modules/Gallery/util.php	/^function pluralize($amt, $noun, $none="") {$/;"	f
+popup	modules/Gallery/util.php	/^function popup($url, $url_is_complete=0) {$/;"	f
+popup_js	modules/Gallery/util.php	/^function popup_js($url, $window, $attrs) {$/;"	f
+popup_status	modules/Gallery/util.php	/^function popup_status($url) {$/;"	f
+prefix	modules/Gallery/classes/Database.php	/^	function prefix($tablename) {$/;"	f
+preload_complete	modules/Gallery/slideshow.php	/^function preload_complete() {$/;"	f
+preload_complete	modules/Gallery/slideshow_low.php	/^function preload_complete() {$/;"	f
+preload_next_photo	modules/Gallery/slideshow.php	/^function preload_next_photo() {$/;"	f
+preload_next_photo	modules/Gallery/slideshow_low.php	/^function preload_next_photo() {$/;"	f
+preload_photo	modules/Gallery/slideshow.php	/^function preload_photo(index) {$/;"	f
+preload_photo	modules/Gallery/slideshow_low.php	/^function preload_photo(index) {$/;"	f
+preprocessImage	modules/Gallery/util.php	/^function preprocessImage($dir, $file) {$/;"	f
+printAlbumOptionList	modules/Gallery/util.php	/^function printAlbumOptionList($rootDisplay=1, $moveRootAlbum=0, $movePhoto=0) {$/;"	f
+printChildren	modules/Gallery/util.php	/^function printChildren($albumName,$depth=0) {$/;"	f
+printLink	links.php	/^function printLink($title, $href)$/;"	f
+printNestedVals	modules/Gallery/util.php	/^function printNestedVals($level, $albumName, $val, $movePhoto) {$/;"	f
+process	modules/Gallery/gallery_remote.php	/^function process($file, $tag, $name, $setCaption="") {$/;"	f
+process	modules/Gallery/save_photos.php	/^function process($file, $tag, $name, $setCaption="") {$/;"	f
+process	modules/Gallery/upgrade_album.php	/^function process($arr) {$/;"	f
+query	modules/Gallery/classes/Database.php	/^	function query($sql) {$/;"	f
+query	modules/Gallery/classes/database/mysql/Database.php	/^	function query($sql) {$/;"	f
+rebuildUserMap	modules/Gallery/classes/gallery/UserDB.php	/^	function rebuildUserMap() {$/;"	f
+reload	modules/Gallery/util.php	/^function reload() {$/;"	f
+reloadPage	modules/Gallery/add_photos.php	/^	function reloadPage() {$/;"	f
+reload_button	modules/Gallery/upgrade_album.php	/^function reload_button() {$/;"	f
+removeTags	modules/Gallery/util.php	/^function removeTags($msg) {$/;"	f
+renameAlbum	modules/Gallery/classes/AlbumDB.php	/^	function renameAlbum($oldName, $newName) {$/;"	f
+resetAllClicks	modules/Gallery/classes/Album.php	/^	function resetAllClicks() {$/;"	f
+resetClicks	modules/Gallery/classes/Album.php	/^	function resetClicks() {$/;"	f
+resetItemClicks	modules/Gallery/classes/Album.php	/^	function resetItemClicks($index) {$/;"	f
+resetItemClicks	modules/Gallery/classes/AlbumItem.php	/^	function resetItemClicks() {$/;"	f
+reset_timer	modules/Gallery/slideshow.php	/^function reset_timer() {$/;"	f
+reset_timer	modules/Gallery/slideshow_low.php	/^function reset_timer() {$/;"	f
+resize	modules/Gallery/classes/AlbumItem.php	/^	function resize($dir, $target, $pathToResized="") {$/;"	f
+resize	modules/Gallery/classes/Image.php	/^	function resize($dir, $target, $pathToResized="") {$/;"	f
+resizePhoto	modules/Gallery/classes/Album.php	/^	function resizePhoto($index, $target, $pathToResized="") {$/;"	f
+resize_image	modules/Gallery/util.php	/^function resize_image($src, $dest, $target) {$/;"	f
+rotate	modules/Gallery/classes/AlbumItem.php	/^	function rotate($dir, $direction, $thumb_size) {$/;"	f
+rotatePhoto	modules/Gallery/classes/Album.php	/^	function rotatePhoto($index, $direction) {$/;"	f
+rotate_image	modules/Gallery/util.php	/^function rotate_image($src, $dest, $target) {$/;"	f
+safe_serialize	modules/Gallery/util.php	/^function safe_serialize($obj, $file) {$/;"	f
+save	modules/Gallery/classes/Album.php	/^	function save($resetModDate=1) {$/;"	f
+save	modules/Gallery/classes/AlbumDB.php	/^	function save() {$/;"	f
+save	modules/Gallery/classes/gallery/User.php	/^	function save() {$/;"	f
+selectOptions	modules/Gallery/util.php	/^function selectOptions($album, $field, $opts) {$/;"	f
+setAddTo	modules/Gallery/classes/Album.php	/^	function setAddTo($uid, $bool) {$/;"	f
+setCanCreateAlbums	modules/Gallery/classes/User.php	/^	function setCanCreateAlbums($bool) {$/;"	f
+setCaption	modules/Gallery/classes/Album.php	/^	function setCaption($index, $caption) {$/;"	f
+setCaption	modules/Gallery/classes/AlbumItem.php	/^	function setCaption($cap) {$/;"	f
+setCaption	modules/Gallery/slideshow.php	/^function setCaption(text) {$/;"	f
+setChangeText	modules/Gallery/classes/Album.php	/^	function setChangeText($uid, $bool) {$/;"	f
+setCheck	modules/Gallery/save_photos.php	/^function setCheck(val) {$/;"	f
+setCreateSubAlbum	modules/Gallery/classes/Album.php	/^	function setCreateSubAlbum($uid, $bool) {$/;"	f
+setDelete	modules/Gallery/classes/Album.php	/^	function setDelete($uid, $bool) {$/;"	f
+setDeleteFrom	modules/Gallery/classes/Album.php	/^	function setDeleteFrom($uid, $bool) {$/;"	f
+setDimensions	modules/Gallery/classes/Image.php	/^	function setDimensions($w, $h) {$/;"	f
+setEmail	modules/Gallery/classes/User.php	/^	function setEmail($email) {$/;"	f
+setFile	modules/Gallery/classes/Image.php	/^	function setFile($dir, $name, $type) {$/;"	f
+setFullName	modules/Gallery/classes/User.php	/^	function setFullName($fullname) {$/;"	f
+setHighlight	modules/Gallery/classes/Album.php	/^	function setHighlight($index) {$/;"	f
+setHighlight	modules/Gallery/classes/AlbumItem.php	/^	function setHighlight($dir, $bool) {$/;"	f
+setIsAdmin	modules/Gallery/classes/User.php	/^	function setIsAdmin($bool) {$/;"	f
+setIsAlbumName	modules/Gallery/classes/Album.php	/^	function setIsAlbumName($index, $name) {$/;"	f
+setIsAlbumName	modules/Gallery/classes/AlbumItem.php	/^	function setIsAlbumName($name) {$/;"	f
+setItemCaptureDate	modules/Gallery/classes/Album.php	/^	function setItemCaptureDate($index, $itemCaptureDate="") {$/;"	f
+setItemCaptureDate	modules/Gallery/classes/AlbumItem.php	/^	function setItemCaptureDate($itemCaptureDate="") {$/;"	f
+setKeyWords	modules/Gallery/classes/Album.php	/^	function setKeyWords($index, $keywords) {$/;"	f
+setKeyWords	modules/Gallery/classes/AlbumItem.php	/^	function setKeyWords($kw) {$/;"	f
+setNestedProperties	modules/Gallery/classes/Album.php	/^	function setNestedProperties() {$/;"	f
+setOwner	modules/Gallery/classes/Album.php	/^	function setOwner($uid) {$/;"	f
+setPassword	modules/Gallery/classes/User.php	/^	function setPassword($password) {$/;"	f
+setPerm	modules/Gallery/classes/Album.php	/^	function setPerm($permName, $uid, $bool) {$/;"	f
+setPhoto	modules/Gallery/classes/Album.php	/^	function setPhoto($photo, $index) {$/;"	f
+setPhoto	modules/Gallery/classes/AlbumItem.php	/^	function setPhoto($dir, $name, $tag, $thumb_size, $pathToThumb="") {$/;"	f
+setRawDimensions	modules/Gallery/classes/Image.php	/^	function setRawDimensions($w, $h) {$/;"	f
+setRead	modules/Gallery/classes/Album.php	/^	function setRead($uid, $bool) {$/;"	f
+setTablePrefix	modules/Gallery/classes/Database.php	/^	function setTablePrefix($prefix) {$/;"	f
+setThumbRectangle	modules/Gallery/classes/Image.php	/^	function setThumbRectangle($x, $y, $w, $h) {$/;"	f
+setUploadDate	modules/Gallery/classes/Album.php	/^	function setUploadDate($index, $uploadDate="") {$/;"	f
+setUploadDate	modules/Gallery/classes/AlbumItem.php	/^	function setUploadDate($uploadDate="") { \/\/upload date should only be set at file upload time.$/;"	f
+setUsername	modules/Gallery/classes/User.php	/^	function setUsername($username) {$/;"	f
+setWrite	modules/Gallery/classes/Album.php	/^	function setWrite($uid, $bool) {$/;"	f
+showChoice	modules/Gallery/view_album.php	/^function showChoice($label, $target, $args) {$/;"	f
+showProgress	modules/Gallery/view_album.php	/^  function showProgress() {$/;"	f
+show_current_photo	modules/Gallery/slideshow.php	/^function show_current_photo() {$/;"	f
+show_current_photo	modules/Gallery/slideshow_low.php	/^function show_current_photo() {$/;"	f
+shufflePhotos	modules/Gallery/classes/Album.php	/^	function shufflePhotos() {$/;"	f
+sidebar	sidebar.php	/^function sidebar($filename)$/;"	f
+sortPhotos	modules/Gallery/classes/Album.php	/^	function sortPhotos($sort,$order) {$/;"	f
+stop	modules/Gallery/slideshow.php	/^function stop() {$/;"	f
+stop	modules/Gallery/slideshow_low.php	/^function stop() {$/;"	f
+stopOrStart	modules/Gallery/slideshow.php	/^function stopOrStart() {$/;"	f
+timeString	php-bin/Activity.php	/^	function timeString()$/;"	f
+toHTML	php-bin/Activity.php	/^	function toHTML()$/;"	f
+toPnmCmd	modules/Gallery/util.php	/^function toPnmCmd($file) {$/;"	f
+toTableRow	php-bin/Activity.php	/^	function toTableRow()$/;"	f
+toggleLoop	modules/Gallery/slideshow.php	/^function toggleLoop() {$/;"	f
+toggleLoop	modules/Gallery/slideshow_low.php	/^function toggleLoop() {$/;"	f
+unhide	modules/Gallery/classes/AlbumItem.php	/^	function unhide() {$/;"	f
+unhidePhoto	modules/Gallery/classes/Album.php	/^	function unhidePhoto($index) {$/;"	f
+update_session_var	modules/Gallery/session.php	/^function update_session_var($name, $protected=0) {$/;"	f
+validNewUsername	modules/Gallery/classes/gallery/UserDB.php	/^	function validNewUsername($username) {$/;"	f
+validPassword	modules/Gallery/classes/gallery/UserDB.php	/^	function validPassword($password) {$/;"	f
+valid_image	modules/Gallery/util.php	/^function valid_image($file) {$/;"	f
+versionOutOfDate	modules/Gallery/classes/Album.php	/^	function versionOutOfDate() {$/;"	f
+viewComments	modules/Gallery/util.php	/^function viewComments($index) {$/;"	f
+wait_for_current_photo	modules/Gallery/slideshow.php	/^function wait_for_current_photo() {$/;"	f
+wait_for_current_photo	modules/Gallery/slideshow_low.php	/^function wait_for_current_photo() {$/;"	f
